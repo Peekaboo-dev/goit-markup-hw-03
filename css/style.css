@@ -22,10 +22,11 @@ a:active {
   outline: none;
 }
 
+aside,
 nav,
 footer,
 header,
-aside {
+section {
   display: block;
 }
 
@@ -225,3 +226,39 @@ body {
 /*===Employment Style===*/
 /*===Team Style===*/
 /*===Footer Style===*/
+.footer {
+  padding: 60px 0;
+  background: var(--secondary-background-color);
+}
+
+.footer__logo {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer__logo--white {
+  color: var(--secondary-font-color-white);
+}
+
+.footer__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__address :not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer__address-link {
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  opacity: 0.6;
+  color: var(--secondary-font-color-white);
+}
