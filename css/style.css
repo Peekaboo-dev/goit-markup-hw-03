@@ -241,18 +241,12 @@ body {
   color: var(--secondary-font-color-white);
 }
 
-.footer__address {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.footer__address-list {
+  display: inline-block;
 }
 
-.footer__address :not(:last-child) {
-  margin-bottom: 10px;
+.footer__address-list :not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer__address-link {
@@ -260,5 +254,17 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   opacity: 0.6;
+  color: var(--secondary-font-color-white);
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.footer__address-link:hover {
+  opacity: 1;
+  color: var(--secondary-font-color-white);
+}
+
+.footer__address-link:focus {
+  opacity: 1;
   color: var(--secondary-font-color-white);
 }
