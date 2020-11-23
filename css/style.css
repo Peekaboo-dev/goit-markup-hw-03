@@ -212,7 +212,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color-black);
 }
@@ -251,7 +251,7 @@ body {
 
 .footer__address-link {
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   opacity: 0.6;
   color: var(--secondary-font-color-white);
