@@ -227,7 +227,7 @@ body {
   height: 600px;
   text-align: center;
   background-color: var(--secondary-background-color);
-  background-image: url("../img/img.png");
+  background-image: url("../img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
