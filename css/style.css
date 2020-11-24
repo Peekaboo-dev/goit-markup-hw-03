@@ -96,7 +96,6 @@ h6 {
 :root {
   --primary-background-color: #ffffff;
   --primary-font-color: #212121;
-  --button-background-color: #f5f4fa;
   --secondary-background-color-gray: #f5f4fa;
   --secondary-background-color: #2f303a;
   --secondary-font-color-black: #000000;
@@ -105,7 +104,8 @@ h6 {
   --secondary-font-transparen-white: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --color-link-off-bk: #transparent;
-  --button-border-color: #2196f3;
+  --button-background-color: #2196f3;
+  --button-background-color-gray: #f5f4fa;
   --button-border-transparent: #transparent;
 }
 
@@ -222,6 +222,44 @@ body {
 }
 
 /*===HERO Style===*/
+.hero {
+  height: 600px;
+  padding-top: 200px;
+  text-align: center;
+  background-color: var(--secondary-background-color);
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  color: var(--secondary-font-color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero__btn {
+  height: 50px;
+  padding: 0 32px;
+  border-radius: 4px;
+  background-color: var(--button-background-color);
+  color: var(--secondary-font-color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+.hero__btn:active {
+  position: relative;
+  top: 1px;
+}
+
 /*===Experience Style===*/
 /*===Employment Style===*/
 /*===Team Style===*/
