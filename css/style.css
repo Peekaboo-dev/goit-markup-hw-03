@@ -98,14 +98,15 @@ h6 {
   --primary-font-color: #212121;
   --secondary-background-color-gray: #f5f4fa;
   --secondary-background-color: #2f303a;
+  --overlay-background-color: rgba(47, 48, 58, 0.4);
+  --button-background-color: #2196f3;
+  --button-background-color-gray: #f5f4fa;
   --secondary-font-color-black: #000000;
   --secondary-font-color-gray: #757575;
   --secondary-font-color-white: #ffffff;
   --secondary-font-transparen-white: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --color-link-off-bk: #transparent;
-  --button-background-color: #2196f3;
-  --button-background-color-gray: #f5f4fa;
   --button-border-transparent: #transparent;
 }
 
@@ -224,16 +225,21 @@ body {
 /*===HERO Style===*/
 .hero {
   height: 600px;
-  padding-top: 200px;
   text-align: center;
   background-color: var(--secondary-background-color);
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.hero__overlay {
+  height: 100%;
+  background: var(--overlay-background-color);
+}
+
 .hero__title {
+  padding-top: 200px;
   margin-bottom: 30px;
   color: var(--secondary-font-color-white);
   font-weight: 900;
