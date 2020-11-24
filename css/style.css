@@ -266,7 +266,7 @@ body {
 /*===Footer Style===*/
 .footer {
   padding: 60px 0;
-  background: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .footer__logo {
