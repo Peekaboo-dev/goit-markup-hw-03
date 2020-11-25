@@ -224,6 +224,7 @@ body {
 
 /*===HERO Style===*/
 .hero {
+  padding: 200px 0;
   height: 600px;
   text-align: center;
   background-color: var(--secondary-background-color);
@@ -235,7 +236,6 @@ body {
 }
 
 .hero__title {
-  padding-top: 200px;
   margin-bottom: 30px;
   color: var(--secondary-font-color-white);
   font-weight: 900;
