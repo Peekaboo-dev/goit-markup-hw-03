@@ -227,10 +227,6 @@ body {
   height: 600px;
   text-align: center;
   background-color: var(--secondary-background-color);
-  background-image: url("../img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .hero__overlay {
@@ -266,8 +262,70 @@ body {
   top: 1px;
 }
 
-/*===Experience Style===*/
-/*===Employment Style===*/
+/*===Soft-Skill Style===*/
+.sof-skill {
+  padding: 94px 0;
+}
+
+.sof-skill__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sof-skill__list :nth-child(4n) {
+  margin-right: 0;
+}
+
+.sof-skill__item {
+  width: calc((100%-90px) / 4);
+  margin-right: 30px;
+}
+
+.sof-skill__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.sof-skill__text {
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color-gray);
+}
+
+/*===Tech-Skill Style===*/
+.tech-skill {
+  padding-bottom: 94px;
+}
+
+.tech-skill__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.tech-skill__box-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tech-skill__box-inner :last-child {
+  margin-right: 0px;
+}
+
+.tech-skill__link {
+  margin-right: 30px;
+}
+
 /*===Team Style===*/
 /*===Footer Style===*/
 .footer {
