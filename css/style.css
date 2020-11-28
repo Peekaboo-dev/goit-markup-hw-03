@@ -107,6 +107,7 @@ h6 {
   /*****************************************/
   --color-header-link-hover: #2196f3;
   --color-header-link-focus: #2196f3;
+  --color-header-link-active: #2196f3;
   --color-soft-skill-text: #757575;
   --color-team-list-text: #757575;
   --color-hero-title: #ffffff;
@@ -229,14 +230,17 @@ body {
   color: var(--color-header-link-focus);
 }
 
+.nav-link-active {
+  color: var(--color-header-link-active);
+}
+
 /*===HERO Style===*/
 .hero {
-  height: 600px;
+  padding: 200px 0;
   background: var(--primary-bg-hero);
 }
 
 .hero__title {
-  margin-top: 200px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -249,7 +253,6 @@ body {
 
 .hero__button {
   padding: 0 32px;
-  margin-bottom: 200px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
@@ -266,7 +269,6 @@ body {
 }
 
 .hero-container {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
