@@ -14,9 +14,9 @@
 
   <body>
     <header>
-      <div class="container header__inner">
-        <a href="index.html" class="site-logo"
-          ><span class="site-logo--accent">Web</span>Studio</a
+      <div class="container header-container">
+        <a href="#" class="logo header-logo"
+          ><span class="logo__accent">Web</span>Studio</a
         >
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -31,11 +31,11 @@
             </li>
           </ul>
         </nav>
-        <address class="header__address">
-          <a href="mailto:info@devstudio.com" class="header__address-link"
+        <address class="header__contacts">
+          <a href="mailto:info@devstudio.com" class="header__contacts-link"
             >info@devstudio.com</a
           >
-          <a href="tel:+380961111111" class="header__address-link"
+          <a href="tel:+380961111111" class="header__contacts-link"
             >+38 096 111 11 11</a
           >
         </address>
@@ -43,44 +43,42 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero__overlay">
-          <div class="container">
-            <h1 class="hero__title">
-              Эффективные решения<br />
-              для вашего бизнеса
-            </h1>
-            <button class="hero__btn" type="button">Заказать услугу</button>
-          </div>
+        <div class="container hero-container">
+          <h1 class="hero__title">
+            Эффективные решения<br />
+            для вашего бизнеса
+          </h1>
+          <button type="button" class="hero__button">Заказать услугу</button>
         </div>
       </section>
-      <section class="sof-skill">
+      <section class="soft-skill">
         <div class="container">
-          <h2 class="visually-hidden">Наши навыки</h2>
-          <ul class="sof-skill__list">
-            <li class="sof-skill__item">
-              <h3 class="sof-skill__title">Внимание к деталям</h3>
-              <p class="sof-skill__text">
+          <h2 class="visually-hidden">Наши преимущества</h2>
+          <ul class="soft-skill__list">
+            <li class="soft-skill__list-item">
+              <h3 class="soft-skill__list-title">Внимание к деталям</h3>
+              <p class="soft-skill__list-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="sof-skill__item">
-              <h3 class="sof-skill__title">Пунктуальность</h3>
-              <p class="sof-skill__text">
+            <li class="soft-skill__list-item">
+              <h3 class="soft-skill__list-title">Пунктуальность</h3>
+              <p class="soft-skill__list-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="sof-skill__item">
-              <h3 class="sof-skill__title">Планирование</h3>
-              <p class="sof-skill__text">
+            <li class="soft-skill__list-item">
+              <h3 class="soft-skill__list-title">Планирование</h3>
+              <p class="soft-skill__list-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="sof-skill__item">
-              <h3 class="sof-skill__title">Современные технологии</h3>
-              <p class="sof-skill__text">
+            <li class="soft-skill__list-item">
+              <h3 class="soft-skill__list-title">Современные технологии</h3>
+              <p class="soft-skill__list-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -91,46 +89,101 @@
       <section class="tech-skill">
         <div class="container">
           <h2 class="tech-skill__title">Чем мы занимаемся</h2>
-          <div class="tech-skill__box-inner">
-            <a class="tech-skill__link" href="#"
-              ><img src="./img/works/develop.jpg" alt="разработка"
+          <div class="tech-skill__image-box">
+            <a href="#"
+              ><img
+                src="./img/works/develop.jpg"
+                alt="разработка"
+                width="370px"
+                height="294px"
             /></a>
-            <a class="tech-skill__link" href="#"
-              ><img src="./img/works/adaptive.jpg" alt="адаптация"
+            <a href="#"
+              ><img
+                src="./img/works/adaptive.jpg"
+                alt="адаптация"
+                width="370px"
+                height="294px"
             /></a>
-            <a class="tech-skill__link" href="#"
-              ><img src="./img/works/design.jpg" alt="дизайн"
+            <a href="#"
+              ><img
+                src="./img/works/design.jpg"
+                alt="дизайн"
+                width="370px"
+                height="294px"
             /></a>
           </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="team__title">Наша команда</h2>
+          <ul class="team__list">
+            <li class="team__list-item">
+              <img
+                src="./img/team/product_designer.jpg"
+                alt=""
+                width="270px"
+                height="260px"
+                class="team__list-img"
+              />
+              <h3 class="team__list-title">Игорь Демьяненко</h3>
+              <p class="team__list-text">Product Designer</p>
+            </li>
+            <li class="team__list-item">
+              <img
+                src="./img/team/frontend_developer.jpg"
+                alt=""
+                width="270px"
+                height="260px"
+                class="team__list-img"
+              />
+              <h3 class="team__list-title">Ольга Репина</h3>
+              <p class="team__list-text">Frontend Developer</p>
+            </li>
+            <li class="team__list-item">
+              <img
+                src="./img/team/marketing.jpg"
+                alt=""
+                width="270px"
+                height="260px"
+                class="team__list-img"
+              />
+              <h3 class="team__list-title">Николай Тарасов</h3>
+              <p class="team__list-text">Marketing</p>
+            </li>
+            <li class="team__list-item">
+              <img
+                src="./img/team/ui_designer.jpg"
+                alt=""
+                width="270px"
+                height="260px"
+                class="team__list-img"
+              />
+              <h3 class="team__list-title">Михаил Ермаков</h3>
+              <p class="team__list-text">UI Designer</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="index.html" class="site-logo footer__logo footer__logo--white"
-          ><span class="site-logo--accent">Web</span>Studio</a
+        <a href="#" class="logo footer-logo"
+          ><span class="logo__accent">Web</span>Studio</a
         >
-        <address>
-          <ul class="footer__address-list">
-            <li>
-              <a
-                class="footer__address-link"
-                href="https://goo.gl/maps/6UAyQ6Jbo5PxjERL8"
-                target="_blank"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li>
-              <a class="footer__address-link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="footer__address-link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
+        <address class="footer__contacts">
+          <a
+            href="https://goo.gl/maps/GYdSP3vSzZe3BjHV9"
+            target="_blank"
+            class="footer__contacts-link"
+            >г. Киев, пр-т Леси Украинки, 26</a
+          >
+          <a href="mailto:info@example.com" class="footer__contacts-link"
+            >info@example.com</a
+          >
+          <a href="tel:+380991111111" class="footer__contacts-link"
+            >+38 099 111 11 11</a
+          >
         </address>
       </div>
     </footer>
