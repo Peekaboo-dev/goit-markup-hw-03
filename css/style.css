@@ -427,6 +427,10 @@ body {
   margin-bottom: 9px;
 }
 
+.footer__contacts :first-child {
+  opacity: 1;
+}
+
 .footer__contacts-link {
   margin-right: auto;
   font-weight: 400;
@@ -435,16 +439,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-contacts-footer-color);
   opacity: 0.6;
-  -webkit-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-}
-
-.footer__contacts-link:hover {
-  opacity: 1;
-}
-
-.footer__contacts-link:focus {
-  opacity: 1;
 }
 
 .footer-logo {
