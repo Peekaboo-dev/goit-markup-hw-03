@@ -242,7 +242,7 @@ body {
   color: var(--color-header-link-active);
 }
 
-.header-border {
+.header--border {
   border-bottom: 1px solid var(--border-header-color);
 }
 
