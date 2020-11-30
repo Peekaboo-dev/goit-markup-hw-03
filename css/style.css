@@ -505,7 +505,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -10px 0;
 }
 
 .projects__list li:nth-child(3n) {
@@ -519,15 +518,16 @@ body {
 .projects__list-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid var(--border-projects-color);
 }
 
-.projects__list-img {
-  margin-bottom: 20px;
+.projects__list-card-border {
+  padding: 20px 24px;
+  border-width: 0 1px 1px;
+  border-style: solid;
+  border-color: var(--border-projects-color);
 }
 
 .projects__list-title {
-  padding: 0 24px 0;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -537,7 +537,6 @@ body {
 }
 
 .projects__list-text {
-  padding: 0 24px 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
