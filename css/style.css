@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*===Null Style===*/
 * {
   padding: 0;
@@ -449,9 +450,7 @@ body {
 /**************Portfolio*******************/
 /*===Search-Menu Style===*/
 .search-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
   padding: 94px 0 50px;
 }
 
@@ -460,6 +459,8 @@ body {
 }
 
 .search-menu__btn {
+  /*Убрал лишний зазор между кнопок*/
+  margin-left: -4px;
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
